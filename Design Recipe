@@ -6,8 +6,8 @@ Exercise 1 right a program that estimates how long it takes to read a document a
 
 ##2. DEsign the method signature
 
-2 the name of the method will be reading_time and it will take a string as the only argument and return a string containing a message
-with the ammount of time to read the string passed.
+2 the name of the method will be reading_time and it will take a integer as the only argument and return a string containing a message
+with the ammount of time to read the text of the size of the integer passed to it.
 
 
 
