@@ -36,3 +36,20 @@ sentence_checker("This is not a correct sentence") => false
 
 Implemented check on if first letter is capital - returns true
 Implemented check to see if first letter is capital and correct punction at end. 
+
+Check if text includes TODO challenge
+
+##1. Describe the problem
+User wants to keep track of tasks by checking if a string contains '#TODO'
+
+##2. DEsign the method signature
+
+Method will be called string_check, takes one arguement, a string. If that string contains #TODO, returns true, else returns false.
+
+##3. Create examples as tests
+
+string_check("This sentence contains #TODO") => True
+string_check("This sentence does not contain it") => False
+
+##4. Implement the behaviour
+tested if true is returned when #TODO is included in the string
