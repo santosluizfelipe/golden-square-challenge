@@ -1,3 +1,4 @@
+Word count excercise
 ##1. Describe the problem
 
 Exercise 1 right a program that estimates how long it takes to read a document assuming the user can read 200 words per minute.
@@ -14,3 +15,24 @@ with the ammount of time to read the text of the size of the integer passed to i
 ##3. Create examples as tests
 
 reading_time("hello how are you doing my friend") => "it will take you an 1 minute to read this"
+
+Sentence checking exercise
+
+##1. Describe the problem
+
+User wants sentence to begin with a capital letter and end with suitable punction mark.
+
+##2. DEsign the method signature
+
+method will be called sentence_checker and will take a string as the only argument and return true if it begins with a capital letter and ends with suitable punction mark, else it will return false.
+
+##3. Create examples as tests
+
+sentence_checker("This is a correct sentence.") => true
+sentence_checker("this is not a correct sentence.") => false
+sentence_checker("This is not a correct sentence") => false
+
+##4. Implement the behaviour
+
+Implemented check on if first letter is capital - returns true
+Implemented check to see if first letter is capital and correct punction at end. 
