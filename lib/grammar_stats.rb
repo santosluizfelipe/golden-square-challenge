@@ -29,4 +29,4 @@ grammar_stats.check('Hello, world')
 grammar_stats.check('Hello, world')
 grammar_stats.check('Hello, world')
 grammar_stats.check('Hello, world')
-p grammar_stats.percentage_good
+grammar_stats.percentage_good
