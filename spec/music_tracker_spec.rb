@@ -16,7 +16,7 @@ describe MusicTracker do
     music_tracker = MusicTracker.new
     music_tracker.add("baby one more time")
     music_tracker.add("Lose yourself")
-   expect(music_tracker.list).to eq ["baby one more time", "Lose yourself"]
+    expect(music_tracker.list).to eq ["baby one more time", "Lose yourself"]
   end
 
   it "it should delete 1 song from the array" do 

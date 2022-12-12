@@ -1,4 +1,4 @@
-require 'diary'
+require 'diary_size'
 
 describe do 
   it "returns 5 words and extra 3 dots in case there is more words" do 
